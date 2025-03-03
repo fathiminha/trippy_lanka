@@ -9,12 +9,16 @@ class Navbar extends Component {
       <nav className="NavbarItems">
         <h1 className="navbar-logo"> TrippyLanka </h1>
         <ul className="nav-menu">
-          <li>
-            <a href="/">
-              <i className="fa-solid fa-house"> </i>
-              Home
-            </a>
-          </li>
+          {MenuItems.map((item, index)=>{
+            return(
+                <li key={index}>
+                    <a href="/">
+                        <i className= {item.icon}></i>
+                    </a> 
+                    {item.title}
+                </li>
+            )
+          })}
         </ul>
       </nav>
     );
