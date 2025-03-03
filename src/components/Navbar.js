@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   render() {
@@ -9,10 +9,10 @@ class Navbar extends Component {
         <h1 className="navbar-logo"> TrippyLanka </h1>
         <ul className="nav-menu">
           <li>
-            <Link>
-              <i class="fa-solid fa-house"> </i>
+            <a href="/">
+              <i className="fa-solid fa-house"> </i>
               Home
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
