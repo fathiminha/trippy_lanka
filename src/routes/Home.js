@@ -7,7 +7,7 @@ export default function Home(){
             <Navbar />
             <Hero 
                 cName= "hero"
-                heroImg= ''
+                heroImg= './assets/2.jpg'
                 title= "Explore Lanka: A Paradise of Wonders!"
                 text = "Choose Your Favourite Destination"
                 buttonText= "Travel Plan"
