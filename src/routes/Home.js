@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import HomeImg from '../assets/4.jpg'
 
 export default function Home(){
     return(
@@ -7,7 +8,7 @@ export default function Home(){
             <Navbar />
             <Hero 
                 cName= "hero"
-                heroImg= './assets/2.jpg'
+                heroImg= {HomeImg}
                 title= "Explore Lanka: A Paradise of Wonders!"
                 text = "Choose Your Favourite Destination"
                 buttonText= "Travel Plan"
