@@ -5,7 +5,16 @@ export default function Home(){
     return(
         <>
             <Navbar />
-            <Hero />
+            <Hero 
+                cName= "hero"
+                heroImg= ''
+                title= "Explore Lanka: A Paradise of Wonders!"
+                text = "Choose Your Favourite Destination"
+                buttonText= "Travel Plan"
+                url='/'
+                btnClass="show"
+            />
+            
         </>
     )
 }
