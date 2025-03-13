@@ -1,5 +1,6 @@
 import i1 from '../assets/i1.jpg';
 import i2 from '../assets/i2.jpg';
+import './Destination.css'
 
 export default function Destination(){
     return(
@@ -9,14 +10,18 @@ export default function Destination(){
             <div className="first-des">
                 <div className="des-text">
                     <h2> Ella </h2>
-                    <p>  A scenic hill town surrounded by lush tea plantations, misty mountains, and waterfalls. 
-                        Enjoy the famous train ride through the hills, hike Little Adam’s Peak, 
-                        or visit the Nine Arches Bridge for a picture-perfect view.
+                    <p> 
+                        Nestled in Sri Lanka’s lush hill country, <b>Ella</b> is a breathtaking destination known for its misty mountains, 
+                        rolling tea plantations, and stunning waterfalls. Whether you're hiking up <b>Little Adam’s Peak</b>, 
+                        exploring the iconic <b>Nine Arches Bridge</b>, or enjoying a scenic train ride through the hills, 
+                        Ella offers a perfect blend of adventure and relaxation. With its cool climate, charming cafes, 
+                        and mesmerizing views, 
+                        it’s a must-visit paradise for nature lovers and explorers alike.
                     </p>
-                    <div className="image">
-                        <img alt="ella1" src={i1} />
-                        <img alt="ella2" src={i2} />
-                    </div>
+                </div>
+                <div className="image">
+                    <img alt="ella1" src={i1} />
+                    <img alt="ella2" src={i2} />
                 </div>
             </div>
         </div>
