@@ -12,6 +12,11 @@ export default function AboutUs(){
             <p>
             At Trippy_Lanka, our mission is to inspire and guide travelers in discovering the true essence of Sri Lanka. We strive to promote sustainable and responsible tourism while showcasing the island’s natural beauty, cultural heritage, and hidden treasures. Through expert travel insights, authentic experiences, and local connections, we aim to create unforgettable journeys that celebrate Sri Lanka’s diversity and charm.
             </p>
+
+            <h1> Our Vission </h1>
+            <p>
+            To be the leading travel platform that showcases Sri Lanka’s beauty, culture, and heritage while promoting sustainable and unforgettable travel experiences.
+            </p>
         </div>
     )
 }
