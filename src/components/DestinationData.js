@@ -6,7 +6,7 @@ import i2 from '../assets/i2.jpg';
 class DestinationData extends Component{
     render(){
         return(
-            <div className="first-des">
+            <div className={this.props.className}>
                 <div className="des-text">
                     <h2> {this.props.heading} </h2>
                     <p> 
